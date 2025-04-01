@@ -1,0 +1,52 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/* Background color */
+.root {
+    -fx-background-color: #AEDFF7;
+}
+
+/* ComboBox styling */
+.combo-box {
+    -fx-font-family: 'Open Sans';
+    -fx-font-size: 14pt;
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #CCCCCC;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #333333;
+}
+
+.combo-box .list-cell:filled:selected, 
+.combo-box .list-cell:hover {
+    -fx-background-color: #E6E6E6;
+}
+
+/* Label styling */
+.label {
+    -fx-font-family: 'Open Sans';
+    -fx-font-size: 12pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow(gaussian, #FFFFFF, 3, 0.8, 0, 0);
+}
+
+/* Button styling */
+.button {
+    -fx-font-family: 'Open Sans';
+    -fx-font-size: 14pt;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px 10px;
+}
+
+.button:hover {
+    -fx-background-color: #45A049;
+}
+
+.button:pressed {
+    -fx-background-color: #3E8E41;
+}
